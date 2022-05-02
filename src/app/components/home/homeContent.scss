@@ -1,0 +1,88 @@
+.home_content {
+    margin: 50px;
+    margin-top: 90px;
+
+    >div {
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        margin-bottom: 70px;
+
+        img {
+            width: 12vw;
+            height: auto;
+            margin-right: 30px;
+            max-height: 400px;
+        }
+
+        div {
+            align-self: center;
+        }
+    }
+
+    h4 {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-seri;
+        color: #138992;
+        font-weight: 700;
+        font-size: 28px;
+    }
+
+    p {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-seri;
+        color: #138992;
+        font-weight: 400;
+        font-size: 16px; 
+    }
+
+    .niet_residentiele {
+        img {
+            margin-right: 0;
+            margin-left: 30px;
+        }
+    }
+
+    .gemeenschappelijke {
+        img {
+            width: 10vw;
+        }
+    }
+    
+}
+
+
+@media screen and (max-width: 900px) {
+    .home_content {
+        >div  {
+            margin: 70px 0;
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .home_content {
+        >div  {
+            flex-direction: column;
+
+            align-items: center;
+            justify-content: center;
+
+            img {
+                width: 30vw;
+                margin: 30px 0;
+                margin-top: 50px;
+            }
+        }
+        .niet_residentiele {
+            flex-direction: column-reverse;
+            img {
+                margin: 0;
+                margin: 30px 0;
+            }
+        }
+        .gemeenschappelijke {
+            img {
+                width: 27vw;
+            }
+        }
+    }
+}

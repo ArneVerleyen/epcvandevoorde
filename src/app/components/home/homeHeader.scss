@@ -1,0 +1,276 @@
+@import '../../app.scss';
+
+.home_header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    .close {display: none;}
+    .home_header_text_right{display: none !important;}
+    
+    background-image: url('../../_static/img/header.png');
+    &.open {
+        background-image: url('../../_static/img/header_open.png');
+        .hamburger_home {
+            display: none;
+        }
+        .close {
+            display: block;
+            right: 30px;
+            top: 55px;
+            position: absolute;
+            cursor: pointer;
+        }
+        .home_header_text_right {
+            display: flex !important;
+        }
+    } 
+
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    .navigation_home {
+        padding: 30px;
+        .site_title {
+            display: flex;
+            align-items: center;
+            .site_logo {
+                svg {
+                    width: 70px;
+                    height: auto;
+                }
+            }
+            h1 {
+                margin-left: 20px;
+                font-family: 'Abel', sans-serif;
+                color: #138992;
+                font-weight: 700;
+                font-size: 32px;
+            }
+            .hamburger_home {
+                margin-left: 15vw;
+                width: 60px;
+                height: auto;
+                cursor: pointer;
+            }
+        }
+    }
+    .home_header_text {
+        padding: 30px;
+        // margin-top: 20vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .home_header_text_left {
+            h2 {
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-seri;
+                font-weight: bolder;
+                max-width: 600px;
+                font-size: 36px;
+                color: #138992;
+            }
+            h3 {
+                margin-top: 10px;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-seri;
+                font-weight: 300;
+                width: 600px;
+                font-size: 28px;
+                color: #138992;
+                a {
+                    text-decoration: none;
+                    border: 1px solid #138992;
+                    border-radius: 8px;
+                    padding: 0 3px;
+                    margin: 0 -3px;
+                    color: #138992;
+                }
+                a:hover {
+                    border: 1px solid #138992;
+                    color: white;
+                    background-color: #138992;
+                }
+            }
+        }
+
+        .home_header_text_right {
+            display: flex;
+            flex-direction: column;
+            margin-right: 10vw;
+
+            a {
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-seri;
+                font-weight: bolder;
+                max-width: 600px;
+                font-size: 36px;
+                color: white;
+                text-decoration: none;
+                margin-bottom: 40px;
+                margin-right: auto;
+                margin-left: auto;
+            }
+
+            a:hover {
+                color: #2AC8DD;
+            }
+        }
+    }
+    .banner {
+        // width: 100%;\
+        background-color: #138992;
+        display: flex;
+        justify-content: space-between;
+        padding: 15px 30px;
+        align-items: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-seri;
+        color: white;
+
+        h4 {
+            font-size: 24px;
+            font-weight: 300;
+        }
+
+        a {
+            text-decoration: none;
+            background-color: #138992;
+            border: solid 1px white;
+            border-radius: 8px;
+
+            font-weight: 300;
+            color: white;
+            padding: 10px;
+            font-size: 24px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-seri;
+        }
+
+        a:hover {
+            color: #138992;
+            background-color: white;
+        }
+    }
+
+    .hamburger_home_small {
+        display: none;
+    }
+
+    .close_home_small {
+        display: none;
+    }
+
+    .header_image_small {
+        display: none;
+    }
+} 
+
+@media screen and (max-width: 1300px){
+    .home_header {
+        background-image: none;
+        .navigation_home {
+            .site_title {
+                .site_logo {
+                    svg {
+                        width: 55px;
+                        height: auto;
+                    }
+                }
+                h1 {
+                    font-size: 26px;
+                }
+            }
+        }
+    }
+
+    .home_header.open{
+        background-image: none;
+        .close {
+            display: none;
+        }
+
+        .hamburger_home_small {
+            display: none !important;
+        }
+
+        .close_home_small {
+            display: block;
+        }
+
+        .home_header_text_right {
+            background-image: none;
+            text-align: center;
+            display: flex !important;
+            justify-content: center;
+            margin-right: 0;
+            background-color: #138992;
+            padding: 8.1vh 0;
+            width: 96.8vw;
+            margin-bottom: 30px;
+            a {
+                font-size: 28px
+            }
+            .last {
+                margin-bottom: 0;
+            }
+
+        }
+        .home_header_text_right:last-child {
+            margin-bottom: 0;
+        }
+
+        .header_image_small {
+            display: none;
+        }
+    }
+
+
+    .navigation_home {
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+
+        .hamburger_home {
+            display: none;
+        }
+    
+        .hamburger_home_small {
+            display: block !important;
+            align-self: center;
+        }
+
+        .close_home_small {
+            align-self: center;
+        }
+    } 
+
+    .home_header_text {
+        flex-direction: column-reverse;
+        justify-content: center !important;
+
+        .home_header_text_left {
+            max-width: 350px;
+            text-align: center;
+            h3 {
+                max-width: 350px;
+            }
+        }
+
+        .header_image_small {
+            display: block;
+            width: 98.4vw;
+            height: 40vh;
+            margin-bottom: 30px;
+
+            img {
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+
+    .home_header {
+        .banner {
+            h4 {
+                font-size: 18px;
+            }
+        }
+    } 
+}

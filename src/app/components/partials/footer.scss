@@ -1,0 +1,89 @@
+.footer {
+    background-color: #138992;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-seri;
+
+    .contact {
+        display: flex;
+        align-items: center;
+
+        .contact_info {
+            display: flex;
+            flex-direction: column;
+            h5 {
+                font-weight: 600;
+                font-size: 24px;
+                margin-bottom: 6px;
+            }
+            a {
+                text-decoration: none;
+                color: white;
+                margin: 6px 0;
+            }
+        }
+
+        .contact_button {
+            text-decoration: none;
+            background-color: #138992;
+            border: solid 1px white;
+            border-radius: 8px;
+            font-weight: 300;
+            color: white;
+            padding: 10px;
+            font-size: 24px;
+            margin-left: 50px;
+        }
+        .contact_button:hover {
+            background-color: white;
+            border: solid 1px #138992;
+            color: #138992;
+
+        }
+
+
+    }
+    .offerte {
+        font-weight: 300;
+        font-size: 24px;
+
+        a {
+            color: white;
+            border: solid 1px white;
+            border-radius: 6px;
+            padding: 0 3px;
+            text-decoration: none;
+        }
+
+        a:hover {
+            border: solid 1px #138992;
+            color: #138992;
+            background-color: white;
+        }
+    }
+}
+
+@media screen and (max-width: 700px) {
+
+    .footer {
+        padding: 20px;
+        .contact {
+            flex-direction: column;
+    
+            .contact_button {
+                margin-top: 20px;
+                margin-left: 0;
+                font-size: 20px;
+            }
+        }
+        .offerte {
+            margin-left: 30px;
+            font-weight: 300;
+            font-size: 20px;
+        }
+    } 
+
+}
