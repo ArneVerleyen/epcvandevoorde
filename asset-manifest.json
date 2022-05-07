@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/epcvandevoorde/static/css/main.3087783d.css",
-    "main.js": "/epcvandevoorde/static/js/main.578a7fd3.js",
+    "main.css": "/epcvandevoorde/static/css/main.ea81dc99.css",
+    "main.js": "/epcvandevoorde/static/js/main.fe3652f4.js",
     "static/js/787.8796af48.chunk.js": "/epcvandevoorde/static/js/787.8796af48.chunk.js",
     "static/media/header.png": "/epcvandevoorde/static/media/header.114b6a963ead275ff4a4.png",
     "static/media/header_open.png": "/epcvandevoorde/static/media/header_open.9e17deea8d008a4a110b.png",
@@ -10,12 +10,12 @@
     "static/media/niet_residentieel.svg": "/epcvandevoorde/static/media/niet_residentieel.894dd25a19a2173cf470706b4bdbbeba.svg",
     "static/media/residentieel.svg": "/epcvandevoorde/static/media/residentieel.13b17cfe195d8246070cd824a33a551d.svg",
     "index.html": "/epcvandevoorde/index.html",
-    "main.3087783d.css.map": "/epcvandevoorde/static/css/main.3087783d.css.map",
-    "main.578a7fd3.js.map": "/epcvandevoorde/static/js/main.578a7fd3.js.map",
+    "main.ea81dc99.css.map": "/epcvandevoorde/static/css/main.ea81dc99.css.map",
+    "main.fe3652f4.js.map": "/epcvandevoorde/static/js/main.fe3652f4.js.map",
     "787.8796af48.chunk.js.map": "/epcvandevoorde/static/js/787.8796af48.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3087783d.css",
-    "static/js/main.578a7fd3.js"
+    "static/css/main.ea81dc99.css",
+    "static/js/main.fe3652f4.js"
   ]
 }
