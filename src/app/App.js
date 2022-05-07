@@ -1,7 +1,7 @@
 import React from 'react';
 
 // Router import 
-import { BrowserRouter as Router, Redirect, Routes, Route, BrowserRouter } from 'react-router-dom';
+import { BrowserRouter as Router, Redirect, Routes, Route, HashRouter } from 'react-router-dom';
 
 // Pages
 import {
@@ -25,7 +25,7 @@ import { PrivacyPolicy } from './components';
 function App() {
     return (
         <div className="App">
-            <BrowserRouter>
+            <HashRouter>
                 <Routes>
                     <Route exact path={Paths.HOME} element={<HomePage/>} />
                     <Route exact path={Paths.CONTACT} element={<ContactPage/>} />
@@ -33,7 +33,7 @@ function App() {
                     <Route exact path={Paths.PRIVACY} element={<PrivacyPage/>} />
 
                 </Routes>
-            </BrowserRouter>
+            </HashRouter>
         </div>
     );
 };
