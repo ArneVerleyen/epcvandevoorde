@@ -19,7 +19,7 @@ const Footer = () => {
                 </Link>
             </div>
             <div className="offerte">
-                Vraag een <Link to={Routes.CONTACT}>offerte</Link> aan.
+                Vraag een <Link to={Routes.OFFERTE}>offerte</Link> aan.
             </div>
         </div>
     );

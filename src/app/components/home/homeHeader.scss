@@ -201,7 +201,7 @@
             margin-right: 0;
             background-color: #138992;
             padding: 8.1vh 0;
-            width: 96.8vw;
+            width: 100vw;
             margin-bottom: 30px;
             a {
                 font-size: 28px
@@ -269,6 +269,10 @@
     .home_header {
         .banner {
             h4 {
+                font-size: 18px;
+            }
+
+            a {
                 font-size: 18px;
             }
         }
