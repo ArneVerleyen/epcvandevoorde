@@ -1,4 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+@font-face {
+    font-family: "Abel";
+    font-weight: "regular";
+    src: url('./_static/fonts/Abel-Regular.ttf');
+}
+
 * {
     margin: 0;
     padding: 0;
