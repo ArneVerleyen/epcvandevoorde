@@ -19,7 +19,7 @@ const HomeContent = () => {
                     </h4>
                     <p>
                         Wenst u een woning, appartement of studio te verhuren of te verkopen? Dan heeft u een energieprestatiecertificaat nodig. Sinds 2009 is het energieprestatiecertificaat bij verkoop of verhuur van residentiële woningen verplicht. Deze certificaten blijven 10 jaar geldig.
-                        Opgelet! Vanaf 1 januari 2022 is er blij verkoop van woningen een EPC nodig dat is opgemaakt vanaf 1 januari 2019. Dit geldt voor alle notariële akten die vanaf 2022 verleden worden, ook indien de compromis werd getekend in 2021 met een EPC van voor 2019!
+                        Opgelet! Vanaf 1 januari 2022 is er bij verkoop van woningen een EPC nodig dat is opgemaakt vanaf 1 januari 2019. Dit geldt voor alle notariële akten die vanaf 2022 verleden worden, ook indien de compromis werd getekend in 2021 met een EPC van voor 2019!
                     </p>
                 </div>
             </div>

@@ -73,7 +73,7 @@ const OfferteForm = () => {
                         <input required type="email" name="user_email" />
                     </div>
                     <div>
-                        <label>Straatnaam, nummber, bus*</label>
+                        <label>Straatnaam, nummer, bus*</label>
                         <input type="text" name="address" />
                     </div>
                     <div>
